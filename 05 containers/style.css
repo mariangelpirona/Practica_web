@@ -1,14 +1,13 @@
 *{
     margin: 0;
     padding:0;
-    outline: solid 1px;
 }
 .margin{
     background-color: rgb(209,91,25);
     margin: 0 auto;
     padding: 60px;
-    height: 690px;
-    width: 700px;
+    height: 790px;
+    width: 900px;
 }
 p{
     text-align: center;
@@ -18,20 +17,27 @@ p{
     padding: 60px;
     background-color: rgb(229,166,133);
     margin: 30px;
-    height: 690px;
+    height: 590px;
     width: 700px;
 }
 .padding{
     padding: 60px;
     background-color: rgb(69,159,199);
     margin: 30px;
-    height: 690px;
-    width: 700px;
+    height: 390px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
 .container{
+
     padding: 60px;
     background-color: rgb(159,202,224);
     margin: 30px;
-    height: 690px;
-    width: 700px;
+    height: 190px;
+    width: 200px;
+    
 }
