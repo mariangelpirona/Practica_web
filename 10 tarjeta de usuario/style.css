@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 1200px;
+    height: 450px;
+    border: solid 7px rgb(153,153,153);
+    margin: 0px auto;
+}
+
+.rectangulo{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(66,163,185);
+}
+
+.perfil{
+height: 200px;
+margin: 0px 20px ;
+}
+
+.textos{
+margin: 60px 35px;
+
+}
+
+.ubi{
+    height: 20px;
+}
+
+.confi{
+    height: 20px;
+}
+
+h1{
+    margin: 10px;
+    font-size: 50px;
+    
+}
+
+h3{
+    margin: 10px;
+    font-size: 30px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.link{
+
+    margin-top: 10px;
+}
+
+
+
+
+
