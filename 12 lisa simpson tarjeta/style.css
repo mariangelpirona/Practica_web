@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 650px;
+    width: 700px;
+    margin: 70px auto;
+    border: solid 7px rgb(153,153,153);
+    background-color: rgb(243, 243, 238);
+}
+
+.cuadrado{
+height: 500px;
+width: 600px;
+margin: 75px  auto;
+background-color: white;
+border-radius: 20px
+
+}
+.img{
+    height: 190px;
+    border-radius: 150px;
+    margin: 0px 190px  ;
+}
+
+h1{
+    text-align: center;
+    font-size: 35px;
+    margin: 20px;   
+}
+
+h2{
+    text-align: center;
+    font-size: 25px;
+    margin: 20px;  
+    
+}
+
