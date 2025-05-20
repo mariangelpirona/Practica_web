@@ -11,7 +11,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 
 .nav{
-    background-color: #eecdcd;
+    background-color: rgb(224, 181, 203);
     width: 100%;
     height: 100px;
     display: flex;
@@ -41,7 +41,7 @@ li{
 a{
     margin: 10px;
     text-decoration: none; /*quita decoracion de etiqueta anchor*/
-    color: #c3c3c3;
+    color: #000000;
 }
 
 .active{
@@ -49,81 +49,74 @@ a{
 }
 
 .btn{
-    background-color:#17a2b8; 
+    background-color:rgb(115, 186, 236); 
     color: white; 
-    box-shadow:  4px 4px 0px rgb(0, 0, 0); 
+    box-shadow:  1px 1px 0px rgb(0, 0, 0); 
     width: 160px;
-    height: 50px;
-    margin-right: 60px;
-    border: 5px solid black; 
-    font-size: 30px;
+    height: 45px;
+    margin-right: 15px;
+    border: 1px solid black; 
+    border-radius: 10px;
+    font-size: 25px;
 }
 
 /* propiedades de tarjeta usuario */
-container3{
-    height: 690px;
-    width: 700px;
-    margin: 70px auto;
-    border: solid 7px rgb(255, 255, 255);
-    background-color: rgb(244,244,244);
+.container3{
+    border-radius: 30px;
+    width: 900px;
+    height: 470px;
+    margin: 50px 0px 0px 80px ;
+    background-color: #ffffff ;
+    border: solid 7px rgb(211, 211, 211)0;
+
+    
+    
 }
 
-    .cuadrado{
-    height: 550px;
-    width: 600px;
-    margin: 75px  auto;
-    background-color: white;
-    border-radius: 20px;
-    box-shadow: 1px 1px 20px 1px;
+.rectangulo2{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(235, 178, 211);
+}
 
+.perfil{
+height: 200px;
+margin: 0px 350px  ;
+border-radius: 50%;
+}
 
+.textos{
+margin: 60px 35px;
 
-    }
-    .imagen{
-        display: flex;
-        justify-content: center;
-        height: 10px;
-    }
-    .img{
-        margin-top: -60px;
-        height: 180px;
-        border-radius: 50%;
-        border: solid 4px rgb(255, 255, 255);
-    }
-    .informacion{
-        margin-top: 180px;
-        text-align: center;
-        font-size: 25px;
-    }
-    h1{
-        text-align: center;
-        font-size: 35px;
-        margin: 20px;   
-    }
+}
 
-    h2{
-        text-align: center;
-        font-size: 30px;
-        color: grey;  
-        margin: 20px;
-    }
+.ubi{
+    height: 20px;
+}
 
-    p{
-        font-size: 25x;
-        text-align: center;
-    }
+.confi{
+    height: 20px;
+}
 
-    button{
-        width: 180px;
-        height: 50px;
-        margin-top: 20px;
-        font-size: 20px;
-        background-color:rgb(43,120,228) ;
-        color: white;
-        border-radius: 7px;
-        border: solid 1px blue;
+h1{
+    margin: 10px;
+    font-size: 50px;
+    
+}
 
-    }
+h3{
+    margin: 10px;
+    font-size: 30px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.link{
+
+    margin-top: 10px;
+}
 
 /* propiedades de solicitudes y conexiones */
 .container2{
@@ -207,5 +200,6 @@ button{
     height: 25px;
     cursor: pointer;
 }
+
 
 
