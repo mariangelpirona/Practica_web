@@ -15,3 +15,6 @@ alert(`EL Producto eliminado: ${basurero}`)
 
 }
 
+// Ejercicio 3
+
+let colores=["rojo", "azul"];
