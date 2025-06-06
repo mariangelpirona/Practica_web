@@ -21,7 +21,7 @@ alert(`Elemento eliminado: ${basurero}`);
 
 function usarUnshift(){
  // Agregar al inicio
-let entreda = prompt ("Agregar una Consola: " )
+let entreda = prompt ("Agregar una Consola: " ) // es un input que puede revisir un dato (input de javascript)
 array.unshift (entreda);
 alert("El nuevo arreglo es: " + array.join(" - "))
 }
