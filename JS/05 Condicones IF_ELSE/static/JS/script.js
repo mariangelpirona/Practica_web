@@ -55,12 +55,15 @@ function controlTareas(){
 
 //  Ejercicio 4: Validar primer elemento
 
-function validarCola(){
+
 let cola = ["sinNombre", "Pedro", "Lucía"];
+
+function validarCola(){
+
 
 if (cola[0] === "sinNombre") {
     cola.shift()
-document.getElementById("resultado4").innerHTML =`<p> Primer ELemento Eliminado Cola Correcta:\n<strong>${cola.join(" , ")}</strong></p>`;
+document.getElementById("resultado4").innerHTML =`<p> Primer ELemento Eliminado.<br></br> Nueva Cola: <strong>${cola.join(" , ")}</strong></p>`;
 }
 else if (cola [0] !== "sinNombre"){
     document.getElementById("resultado4").innerHTML =`<p> Cola Correcta:<strong>${cola.join(" , ")}</strong></p>`;
