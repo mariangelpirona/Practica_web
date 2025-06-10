@@ -146,14 +146,14 @@ let elementoQuitado2 = pila.pop();
 alert("Elementos quitados de la pila:\n" + elementoQuitado1 + "\n" + elementoQuitado2);
 
 
-let cola= [];
-colaNueva.push("A");
-colaNueva.push("B");
-colaNueva.push("C");
+let cola = [];
+cola.push("A");
+cola.push("B");
+cola.push("C");
 
-// Quitar 2 elementos con shift() y mostrarlos
-let atendido1 = colaNueva.shift();
-let atendido2 = colaNueva.shift();
+
+let atendido1 = cola.shift();
+let atendido2 = cola.shift();
 alert("Elementos quitados de la cola:\n" + atendido1 + "\n" + atendido2);
 
 
