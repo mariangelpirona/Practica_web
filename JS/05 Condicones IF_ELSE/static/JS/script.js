@@ -152,4 +152,17 @@ function controlStock(){
 }
 
 
+/* Ejercicio 9: Lista de invitados
+js
+let invitados = ["Ana", "Luis", "Camila"];
+
+Declara la variable persona.
+Si la persona está en el arreglo, muestra "Bienvenido, [nombre]".
+ Si no, muestra "No estás en la lista" */
+
+
+
+
+
+
 
