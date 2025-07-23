@@ -68,15 +68,13 @@ function contadorRegresivo() {
 //Solicita al usuario un número y usa un for para mostrar su tabla de multiplicar del 1 al 10.
 
 function mostrarTablaMultiplicar(){
-    let tabla = []
     let numero = parseInt(prompt("Que tabla de multiplicar desea conocer: "))
 
     for (let i = 1; i<=10; i++){
         let mult = numero * i;
         resultado += `<p>${numero} x ${i} = ${mult}</p>`;
-
+    console.log(resultado)
     }
-
     document.getElementById("resultado5").innerHTML= resultado
 }
 
@@ -180,5 +178,7 @@ function contarMayoresEdad() {
     document.getElementById("ej10").innerHTML =
         `<p>Edades: ${edades.join(" - ")}</p><p>Mayores de edad: ${mayores}</p>`;
 }
+
+
 
 
