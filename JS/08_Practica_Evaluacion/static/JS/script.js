@@ -42,7 +42,7 @@ function filtrarMultiples(numeroLimite, numeroMultiplo){
     let resultado = []
     for(let i = 1; i <= numeroLimite ; i++)
     {
-        if (i % numeroMultiplo === 0)
+        if (i % numeroMultiplo === 0) 
         {
             resultado.push(i);
         }    
@@ -51,8 +51,8 @@ function filtrarMultiples(numeroLimite, numeroMultiplo){
 }
 
 function multiplos(){
-    inputLimite = document.getElementById("limite")
-    inputMultiplo = document.getElementById("multiplo")
+    inputLimite = document.getElementById("input1")
+    inputMultiplo = document.getElementById("input2")
     limite = parseInt(inputLimite.value)
     multiplo = parseInt(inputMultiplo.value)
 
