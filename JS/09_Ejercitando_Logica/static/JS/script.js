@@ -19,7 +19,7 @@ function multiplos(){
 
     inputLimite = document.getElementById("input1")
     limite = parseInt(inputLimite.value)
-    let numeros = mostrarSecuencia(limite);
+    let numeros = mostrarSecuencia(numeroLimite);
 
     if (numeros.length === 0) {
         document.getElementById("resultado1").innerText = "No se encontraron múltiplos.";
@@ -32,6 +32,16 @@ function multiplos(){
     inputLimite.focus();
 
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
