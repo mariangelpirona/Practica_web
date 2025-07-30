@@ -1,3 +1,4 @@
+
 // Ejercicio 1 
 // function calcularSumarHastaN(){
 //     let numero = parseInt(prompt("Ingresa un Numero:"));
@@ -25,35 +26,22 @@
 console.log("Prueba de js..")
 
 function NumerosImpar(Num) {
-
-    let numero = parseInt(prompt("Ingresa un Numero:"));
     let resultado = []
     for (let i = 1; i <= Num; i++) {
-        if (i % 3 === 0) {
-
-        } else {
+        if (i % 2 ==! 0) {
             resultado.push(i);
         }
         console.log(resultado)
-        return resultado
     }
+    return resultado
 }
 
 function mostrarNumerosImpar() {
-    inputLimite = document.getElementById("input1")
-    limite = parseInt(inputLimite.value)
-    let numeros = NumerosImpar(Num) ;
-
+    let Num = parseInt(prompt("Ingresa un Numero:"));
+    let numeros = NumerosImpar(Num);
     if (numeros.length === 0) {
         document.getElementById("resultado1").innerText = "No se encontraron Impares.";
     } else {
         document.getElementById("resultado1").innerText = "Números encontrados: " + numeros.join(", ");
     }
-
-    inputLimite.value = "";
-
-    inputLimite.focus();
-
-
-
 }
