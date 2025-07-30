@@ -26,10 +26,10 @@
 console.log("Prueba de js..")
 
 function NumerosImpar(Num) {
-    let resultado = []
+    let resultado = [] // aca se guardan los numeros impares 
     for (let i = 1; i <= Num; i++) {
-        if (i % 2 ==! 0) {
-            resultado.push(i);
+        if (i % 2 ==! 0) {  // Empieza a busca los numeros impares 
+            resultado.push(i); // se van guardando 
         }
         console.log(resultado)
     }
@@ -37,9 +37,9 @@ function NumerosImpar(Num) {
 }
 
 function mostrarNumerosImpar() {
-    let Num = parseInt(prompt("Ingresa un Numero:"));
-    let numeros = NumerosImpar(Num);
-    if (numeros.length === 0) {
+    let Num = parseInt(prompt("Ingresa un Numero:")); // se envia el numero a la funcion
+    let numeros = NumerosImpar(Num); // Aca se esta enviando parametro a la primera funcion
+    if (numeros.length === 0) { // hacer un if para buscar los numeros impares 
         document.getElementById("resultado1").innerText = "No se encontraron Impares.";
     } else {
         document.getElementById("resultado1").innerText = "Números encontrados: " + numeros.join(", ");
